@@ -30,3 +30,8 @@ body{
 .firstImage{
     padding-bottom: 100px;
 }
+.container2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
