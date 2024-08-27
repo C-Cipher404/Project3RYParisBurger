@@ -1,0 +1,32 @@
+body{
+    margin:0;
+    padding:0;
+}
+.topnavbar{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    background-color: rgb(236, 155, 4);
+    margin-bottom: 10px;
+}
+.topnavbar a{
+    display: flex;
+    justify-content: flex-start;
+    color: black;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+}
+.wine{
+    display: flex;
+    justify-content: center;
+   width: 100%;
+}
+.firstImage{
+    padding-bottom: 100px;
+}
