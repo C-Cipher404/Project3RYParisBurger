@@ -41,3 +41,23 @@ body{
     flex-direction: row;
     font-family: sans-serif;
 }
+.container3{
+    background-color: lightgrey;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.whiteboxes{
+    display:flex;
+    background-color: white;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: sans-serif;
+ justify-content:  center;
+ margin-top: 0px;
+}
