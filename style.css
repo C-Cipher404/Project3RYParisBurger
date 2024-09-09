@@ -4,25 +4,28 @@ body{
 }
 .topnavbar{
     display: flex;
-    justify-content: space-around;  
+    justify-content: space-evenly;  
     background-color: rgb(236, 155, 4);
     margin-bottom: 2px;
 }
 .topnavbar a{
-    display: flex;
     color: black;
+    text-decoration: none;
 }
 .heading1{
     display: flex;
     justify-content: center;
     background-color: white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border: 1px solid black;
+    margin: 30px, 30px, 30px, 30px;
+    position: absolute;
+    top: 70%;
+    left:33%;
+    font-family: sans-serif;
 }
-.wine{
-   display: flex;
-   width: 100%;
+.firstImage{
+    object-fit: cover;
+    width: 100%;
+    height: 550px;
 }
 .text1{
     display: flex;
@@ -34,11 +37,16 @@ body{
     display: flex;
     align-self: flex-start;
    padding-left: 20px;
+   font-family: sans-serif;
+}
+.container1{
+    position: relative;
 }
 .container2{
     display: flex;
     flex-direction: row;
     font-family: sans-serif;
+    justify-content: space-around;
 }
 .container3{
     background-color: lightgrey;
@@ -49,6 +57,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: sans-serif;
 }
 .whiteboxes{
     display:flex;
@@ -75,6 +84,7 @@ body{
     display: flex;
     align-self: flex-start;
     padding-left: 20px;
+    font-family: sans-serif;
 }
 .sandwiches{
     background-color: lightgrey;
@@ -101,4 +111,91 @@ footer a{
     display: flex;
     justify-items: flex-end;
     color: black;
+}
+.textCategories{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: sans-serif;
+}
+.heading3{
+    font-family: sans-serif;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.hamburger{
+    object-fit: cover;
+    width: 100%;
+    height: 600px;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin: 30px, 30px, 30px, 30px;
+    position: absolute;
+    top: 50%;
+    left:33%;
+    font-family: sans-serif;
+}
+.instructions{
+    background-color: lightgrey;
+    height: 100px;
+display: flex;
+flex-direction: row;
+padding: 30px;
+justify-content: space-between;
+}
+.textgrey{
+    text-align: center;
+    background-color: lightgrey;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+    height: 200px;
+    width: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.title1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: xx-large;
+}
+.centerquote{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.title2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: xx-small;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.button{
+    color: white;
+    background-color: tomato;
+}
+.times{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+.recipecontainer{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    
+}
+.ingredients{
+    width: 50%;
 }
